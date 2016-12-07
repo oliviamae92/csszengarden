@@ -1,0 +1,78 @@
+                                                                        .intro {
+                                                                        background-color: none;
+                                                                        border: none;
+                                                                    }
+                                                                    
+                                                                    body {
+                                                                        background: url("https://static.pexels.com/photos/87646/horsehead-nebula-dark-nebula-constellation-orion-87646.jpeg");
+                                                                    }
+                                                                    
+                                                                    div[role="article"] {
+                                                                        background-color: rgba(0, 0, 0, 0.42);
+                                                                        font-family: 'Raleway', sans-serif;
+                                                                        font-weight: 400;
+                                                                        font-size: .8em;
+                                                                    }
+                                                                    
+                                                                    p {
+                                                                        margin: 25px;
+                                                                    }
+                                                                    
+                                                                    .design-name {
+                                                                        color: grey;
+                                                                    }
+                                                                    
+                                                                    h1 {
+                                                                        font-family: 'Raleway', sans-serif;
+                                                                        font-weight: 400;
+                                                                        font-size: 2.5em;
+                                                                        color: white;
+                                                                        margin: 0;
+                                                                    }
+                                                                    
+                                                                    h2 {
+                                                                        font-family: 'Raleway', sans-serif;
+                                                                        font-weight: 600;
+                                                                        font-size: 1.5em;
+                                                                        color: white;
+                                                                        margin: 0;
+                                                                    }
+                                                                    
+                                                                    h3 {
+                                                                        font-family: 'Raleway', sans-serif;
+                                                                        color: white;
+                                                                        font-size: 1em;
+                                                                        margin: 0;
+                                                                    }
+                                                                    
+                                                                    p {
+                                                                        color: white;
+                                                                    }
+                                                                    
+                                                                    a {
+                                                                        text-decoration: none;
+                                                                        color: grey;
+                                                                        font-style: italic;
+                                                                        font-family: 'Raleway', sans-serif;
+                                                                    }
+                                                                    
+                                                                    li {
+                                                                        text-decoration: none;
+                                                                        list-style: none;
+                                                                        display: inline-block;
+                                                                    }
+                                                                    
+                                                                    a:hover {
+                                                                        color: white;
+                                                                    }
+                                                                    /* Phone */
+                                                                    
+                                                                    @media screen and (min-width: 20em) {
+                                                                        /* Diagnostic Styling. */
+                                                                        .designer-name {
+                                                                            display: none;
+                                                                        }
+                                                                        /* Desktop: 1280px = 80em */
+                                                                        @media screen and (min-width: 80em) {
+                                                                            /* Diagnostic Styling. */
+                                                                        }
